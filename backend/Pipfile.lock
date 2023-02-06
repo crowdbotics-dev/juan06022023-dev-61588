@@ -56,7 +56,7 @@
             "markers": "python_version ~= '3.7'",
             "version": "==5.3.0"
         },
-        "cb-django-articles": {
+        "django-articles": {
             "editable": true,
             "path": "./modules/django_articles"
         },
