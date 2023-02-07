@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c5aa5dca480b0992ca8cbe5d449145021f59a17ef68c03f444aa128d789466ba"
+            "sha256": "db9bc9f8e94cae91886d421fee98d7e528e4d2945a3cecbf04c4f91f923e016f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -291,10 +291,6 @@
             ],
             "index": "pypi",
             "version": "==0.51.0"
-        },
-        "django-articles": {
-            "editable": true,
-            "path": "./../backend/django_articles"
         },
         "django-bootstrap4": {
             "hashes": [
