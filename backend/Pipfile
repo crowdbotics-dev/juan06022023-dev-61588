@@ -4,7 +4,6 @@ url = "https://pypi.org/simple"
 name = "pypi"
 
 [dev-packages]
-cb-django-articles = {path="../backend/django_articles", editable = true}
 
 [requires]
 python_version = "3.8"
@@ -34,3 +33,4 @@ google-cloud-storage = "==2.5.0"
 pipenv = "*"
 django-import-export = "*"
 drf-spectacular = "~=0.25.1"
+
