@@ -34,5 +34,4 @@ pipenv = "*"
 django-import-export = "*"
 drf-spectacular = "~=0.25.1"
 django-articles = {editable = true, path = "./modules/django_articles"}
-cb-django-push-notifications = {editable = true, path = "./modules/django_push_notifications"}
 cb-django-2fa = {editable = true, path = "./modules/django_2fa"}
