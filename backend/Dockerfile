@@ -1,8 +1,8 @@
 FROM crowdbotics/cb-django:3.8-slim-buster AS build
 
 # Copy dependency management files and install app packages to /.venv
-COPY ./Pipfile ./Pipfile.lock /
-RUN PIPENV_VENV_IN_PROJECT=1 pip install -r ./requirements.txt
+COPY ./Pipfile ./Pipfile.lock ./requirements.txt /
+RUN PIPENV_VENV_IN_PROJECT=1 pip install -r requirements.txt
 
 
 FROM crowdbotics/cb-django:3.8-slim-buster AS release
