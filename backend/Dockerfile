@@ -1,7 +1,7 @@
 FROM crowdbotics/cb-django:3.8-slim-buster AS build
 
 # Copy dependency management files and install app packages to /.venv
-COPY ./Pipfile ./Pipfile.lock ./modules/django_articles /
+COPY ./Pipfile ./Pipfile.lock ./modules /
 RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
 # RUN PIPENV_VENV_IN_PROJECT=1 pipenv install django_articles-0.1.tar.gz
 
