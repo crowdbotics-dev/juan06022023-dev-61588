@@ -14,5 +14,6 @@ setup(
     version="0.1",
     packages=["articles"],
     install_requires=[],
+    python_requires='>=3.9',
     # cmdclass={"build": BuildCommand},
 )

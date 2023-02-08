@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "85b5dc018e8fac38746a3a8416b3cad33f1582f4cf170713fe72a5a1366360aa"
+            "sha256": "269f282761d54f542a7343e0f40f9aee811f1da45681c51ff3c21471c08b15a5"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.8"
+            "python_version": "3.9"
         },
         "sources": [
             {
@@ -291,10 +291,6 @@
             ],
             "index": "pypi",
             "version": "==0.51.0"
-        },
-        "django-articles": {
-            "editable": true,
-            "path": "./modules/django_articles"
         },
         "django-bootstrap4": {
             "hashes": [
