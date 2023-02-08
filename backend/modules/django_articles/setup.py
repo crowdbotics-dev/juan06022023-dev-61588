@@ -10,7 +10,7 @@ class BuildCommand(build):
 
 
 setup(
-    name="django_articles",
+    name="articles",
     version="0.1",
     packages=["articles"],
     install_requires=[],
