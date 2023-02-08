@@ -88,7 +88,6 @@ THIRD_PARTY_APPS = [
     'drf_spectacular',
     'storages',
     'import_export',
-    'django_articles',
 ]
 MODULES_APPS = get_modules()
 
