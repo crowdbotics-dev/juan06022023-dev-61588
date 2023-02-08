@@ -6,7 +6,7 @@ COPY ./Pipfile ./Pipfile.lock /
 COPY ./modules/django_articles/ /modules/django_articles/
 
 # RUN PIPENV_VENV_IN_PROJECT=1 pip3 install modules/django_articles/
-RUN pipenv install --deploy
+RUN RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
 # RUN PIPENV_VENV_IN_PROJECT=1 pipenv install django_articles-0.1.tar.gz
 # RUN PIPENV_VENV_IN_PROJECT=1 pip install -r requirements.txt
 
