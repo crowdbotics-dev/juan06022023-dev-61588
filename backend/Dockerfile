@@ -31,5 +31,5 @@ ENV PATH="/.venv/bin:$PATH"
 COPY --chown=django:django . .
 
 # Collect static files and serve app
-RUN PIPENV_VENV_IN_PROJECT=1 python3 manage.py collectstatic --no-input
+RUN python3 manage.py collectstatic --no-input
 CMD waitress-serve --port=$PORT juan06022023_dev_61588.wsgi:application
